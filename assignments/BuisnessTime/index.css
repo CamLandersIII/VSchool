@@ -1,0 +1,160 @@
+
+
+
+/* Global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-size: 16px;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #FFF;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 1rem;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-right: 1rem;
+  }
+  
+  nav a {
+    padding: 0.5rem;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #DDD;
+  }
+  
+  /* Hero section styles */
+  #hero {
+    background-image: url('image.png');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFF;
+  }
+  
+  #hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+  }
+  
+  #hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+  }
+  
+  .btn {
+    padding: 1rem 2rem;
+    background-color: #FFF;
+    color: #333;
+    border-radius: 3px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #333;
+    color: #FFF;
+  }
+  
+  /* Menu section styles */
+  #menu {
+    padding: 4rem 2rem;
+    background-color: #EEE;
+  }
+  
+  #menu h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  #menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #menu li {
+    flex-basis: calc(33.33% - 2rem);
+    margin-bottom: 2rem;
+    background-color: #FFF;
+    padding: 2rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  #menu li img {
+    margin-bottom: 1rem;
+  }
+  
+  #menu li h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  #menu li p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .price {
+    float: right;
+    font-weight: bold;
+  }
+  
+  /* About section styles */
+  #about {
+    padding: 4rem 2rem;
+    background-color: #FFF;
+  }
+  
+  #about h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
